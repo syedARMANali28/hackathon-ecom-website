@@ -69,7 +69,7 @@ const page = (props: Props) => {
 
             <h3 className="font-semibold">Unbeatable prices</h3>
             <p className="text-gray-600">
-              For our materials and quality you won't find better prices
+              For our materials and quality you wont find better prices
               anywhere
             </p>
           </div>

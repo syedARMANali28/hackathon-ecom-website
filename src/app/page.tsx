@@ -1,6 +1,4 @@
-
-import FirstHeader, { LastHeader, MiddleHeader } from "./components/header";
-import Footer from "./components/footer";
+import React from "react";
 
 
 export default function Home() {
@@ -8,51 +6,53 @@ export default function Home() {
     <div>
       {/* Main Banner */}
       <div className="w-full flex justify-center">
-        <div className="bg-[#F0F2F3] w-[1321px] h-[850px] flex items-center">
-          {/* Left Section */}
-          <div className="w-1/2 pl-20">
-            <p className="text-gray-500 text-lg">WELCOME TO CHAIRY</p>
-            <h1 className="text-5xl font-bold mt-4">
-              Best Furniture <br /> Collection For Your <br /> Interior.
-            </h1>
-            <button className="mt-8 bg-[#029FAE] hover:bg-indigo-600 text-white font-bold py-2 px-6 flex items-center rounded focus:outline-none focus:ring-2 focus:ring-indigo-200 transition duration-200">
-              Shop Now
-              <span className="ml-2">➔</span>
-            </button>
-          </div>
+  <div className="bg-[#F0F2F3] w-full max-w-[1321px] h-auto md:h-[850px] flex flex-col md:flex-row items-center px-4 md:px-0">
+    {/* Left Section */}
+    <div className="w-full md:w-1/2 p-4 md:pl-20 text-center md:text-left">
+      <p className="text-gray-500 text-lg">WELCOME TO CHAIRY</p>
+      <h1 className="text-3xl md:text-5xl font-bold mt-4 leading-snug">
+        Best Furniture <br className="hidden md:block" /> Collection For Your <br className="hidden md:block" /> Interior.
+      </h1>
+      <button className="mt-8 bg-[#029FAE] hover:bg-indigo-600 text-white font-bold py-2 px-6 flex items-center justify-center rounded focus:outline-none focus:ring-2 focus:ring-indigo-200 transition duration-200">
+        Shop Now
+        <span className="ml-2">➔</span>
+      </button>
+    </div>
 
-          {/* Right Section */}
-          <div className="w-1/2 flex justify-end pr-16">
-            <img
-              className="w-[434px] h-[584px]"
-              src="/images/chair.png"
-              alt="Chair"
-            />
-          </div>
-        </div>
-      </div>
+    {/* Right Section */}
+    <div className="w-full md:w-1/2 flex justify-center md:justify-end p-4 md:pr-16">
+      <img
+        className="w-full max-w-[300px] md:max-w-[434px] h-auto"
+        src="/images/chair.png"
+        alt="Chair"
+      />
+    </div>
+  </div>
+</div>
+
 
       {/* Logo Section */}
-      <div className="flex gap-24 justify-center items-center my-8">
-        {[
-          { src: "/images/zapier.png", width: 85, height: 87 },
-          { src: "/images/pipedrive.png", width: 107, height: 109 },
-          { src: "/images/bank.png", width: 135, height: 139 },
-          { src: "/images/z.png", width: 63, height: 65 },
-          { src: "/images/burnt.png", width: 98, height: 101 },
-          { src: "/images/doc.png", width: 113, height: 115 },
-          { src: "/images/moz.png", width: 84, height: 87 },
-        ].map((logo, index) => (
-          <img
-            key={index}
-            className="w-[100px] h-[100px]" // Adjusted dimensions to a standard size
-            src={logo.src}
-            alt="logo"
-            width={logo.width}
-            height={logo.height}
-          />
-        ))}
-      </div>
+      <div className="flex flex-wrap gap-8 md:gap-24 justify-center items-center my-8">
+  {[
+    { src: "/images/zapier.png", width: 85, height: 87 },
+    { src: "/images/pipedrive.png", width: 107, height: 109 },
+    { src: "/images/bank.png", width: 135, height: 139 },
+    { src: "/images/z.png", width: 63, height: 65 },
+    { src: "/images/burnt.png", width: 98, height: 101 },
+    { src: "/images/doc.png", width: 113, height: 115 },
+    { src: "/images/moz.png", width: 84, height: 87 },
+  ].map((logo, index) => (
+    <img
+      key={index}
+      className="w-[60px] h-[60px] md:w-[100px] md:h-[100px]" // Responsive size
+      src={logo.src}
+      alt="logo"
+      width={logo.width}
+      height={logo.height}
+    />
+  ))}
+</div>
+
 
       {/* Products Section */}
       <div className="container px-5 py-24 mx-auto">
