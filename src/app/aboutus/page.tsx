@@ -22,7 +22,7 @@ const page = (props: Props) => {
           </button>
         </div>
         <div className="relative min-h-[400px]">
-          <img
+          <Image
             src="/images/beige.png"
             alt="Minimalist chair"
             className="object-cover"
@@ -36,7 +36,7 @@ const page = (props: Props) => {
         </h2>
         <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto text-[18px] text-secondary">
           <div className="flex flex-col gap-2">
-            <img
+            <Image
               src="/images/delivery.png"
               alt="Next day as standard"
               className="w-12 h-12 mx-auto mb-4"
@@ -47,7 +47,7 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <img
+            <Image
               src="/images/check.png"
               alt="Made by true artisans"
               className="w-12 h-12 mx-auto mb-4"
@@ -58,7 +58,7 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <img
+            <Image
               src="/images/Purchase.png"
               alt="Unbeatable prices"
               className="w-12 h-12 mx-auto mb-4"
@@ -70,7 +70,7 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <img
+            <Image
               src="/images/Sprout.png"
               alt="Recycled packaging"
               className="w-12 h-12 mx-auto mb-4"
@@ -103,7 +103,7 @@ const page = (props: Props) => {
           </div>
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="relative h-64">
-              <img
+              <Image
                 src="/images/Parent.png"
                 alt="The Dandy chair"
                 className="object-cover"
@@ -116,7 +116,7 @@ const page = (props: Props) => {
           </div>
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="relative h-64">
-              <img
+              <Image
                 src="/images/dandy.png"
                 alt="The Dandy chair"
                 

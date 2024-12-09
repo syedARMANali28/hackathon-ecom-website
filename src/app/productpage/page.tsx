@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -10,7 +11,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/beige.png"
@@ -48,7 +49,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/pink.png"
@@ -86,7 +87,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/orange.png"
@@ -124,7 +125,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/white.png"
@@ -162,7 +163,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/wood.png"
@@ -201,7 +202,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/card.png"
@@ -238,7 +239,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/b.png"
@@ -276,7 +277,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/beige.png"
@@ -314,7 +315,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/a.png"
@@ -352,7 +353,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/pink.png"
@@ -390,7 +391,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/orange.png"
@@ -429,7 +430,7 @@ const page = () => {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <div className="border rounded-lg overflow-hidden shadow-md">
                 <div className="relative h-[312px] w-full">
-                  <img
+                  <Image
                     alt="product"
                     className="object-cover object-center w-full h-full"
                     src="/images/3.png"

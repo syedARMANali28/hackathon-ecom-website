@@ -7,7 +7,7 @@ const page = (props: Props) => {
   return (
     <main className="text-gray-600 body-font overflow-hidden max-w-screen-xl m-auto md:px-20 px-2">
       <div className="max-md:flex-col max-md:items-center py-24 mx-auto flex justify-between gap-8">
-        <img
+        <Image
           alt="ecommerce"
           width={600}
           height={600}
@@ -33,7 +33,7 @@ const page = (props: Props) => {
           </p>
 
           <button className="flex items-center gap-2 mr-auto text-white bg-secondary border-0 py-4 px-8 text-[16px] focus:outline-none rounded-lg">
-            <img
+            <Image
               src="/images/buy 2.png"
               alt="Cart Icon"
               className="w-5 h-5"

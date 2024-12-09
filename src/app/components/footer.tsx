@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex flex-wrap md:items-center lg:items-start md:flex-row md:flex-nowrap flex-col">
           <div className="w-full md:w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <img
+              <Image
                 className="w-[40px] h-[40px]"
                 src="/images/logo.png"
                 alt="logo"
@@ -95,7 +96,7 @@ const Footer = () => {
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a>
-                <img
+                <Image
                   className="w-[227px] h-[27px]"
                   src="/images/REC.png"
                   alt="socials"

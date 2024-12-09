@@ -33,14 +33,14 @@ const page = (props: Props) => {
                 </div>
                 <div className="flex gap-2 mt-4">
                   <button>
-                    <img
+                    <Image
                       src="/images/heart.png"
                       alt="Add to Wishlist"
                       className="w-6 h-6"
                     />
                   </button>
                   <button>
-                    <img
+                    <Image
                       src="/images/bin.png"
                       alt="Remove from Cart"
                       className="w-6 h-6"
@@ -74,14 +74,14 @@ const page = (props: Props) => {
                 </div>
                 <div className="flex gap-2 mt-4">
                   <button>
-                    <img
+                    <Image
                       src="/images/heart.png"
                       alt="Add to Wishlist"
                       className="w-6 h-6"
                     />
                   </button>
                   <button>
-                    <img
+                    <Image
                       src="/images/bin.png"
                       alt="Remove from Cart"
                       className="w-6 h-6"
