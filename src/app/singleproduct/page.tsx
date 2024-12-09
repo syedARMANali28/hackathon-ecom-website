@@ -1,5 +1,5 @@
 import FeaturedCatalog from "@/app/components/FeaturedCatalog";
-import Image from "next/image";
+
 
 type Props = {};
 
@@ -7,11 +7,8 @@ const page = (props: Props) => {
   return (
     <main className="text-gray-600 body-font overflow-hidden max-w-screen-xl m-auto md:px-20 px-2">
       <div className="max-md:flex-col max-md:items-center py-24 mx-auto flex justify-between gap-8">
-        <Image
+        <img
           alt="ecommerce"
-          width={600}
-          height={600}
-          sizes=""
           className="object-cover object-center rounded-lg md:w-1/2"
           src="/images/pink.png"
         />
@@ -33,7 +30,7 @@ const page = (props: Props) => {
           </p>
 
           <button className="flex items-center gap-2 mr-auto text-white bg-secondary border-0 py-4 px-8 text-[16px] focus:outline-none rounded-lg">
-            <Image
+            <img
               src="/images/buy 2.png"
               alt="Cart Icon"
               className="w-5 h-5"

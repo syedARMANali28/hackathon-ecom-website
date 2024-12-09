@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 // First Header Component
 const FirstHeader = () => {
@@ -9,11 +8,13 @@ const FirstHeader = () => {
       {/* Left Section: Free Shipping with Tick */}
       <div className="flex items-center space-x-2">
         {/* Tick Icon */}
-        <Image
-          className="w-[16px] h-[16px]"
-          src="/images/tick.png"
-          alt="tick"
-        />
+
+      <img
+        className="w-[16px] h-[16px]"
+        src="/images/tick.png"
+        alt="tick"
+      />
+
         {/* Free Shipping Text */}
         <span className="text-white text-xs md:text-sm">
           Free Shipping On All Orders Over $50
@@ -33,11 +34,12 @@ const FirstHeader = () => {
         </span>
 
         {/* Circle (Divider) */}
-        <Image
-          className="hidden md:block w-[16px] h-[16px]"
-          src="/images/circle.png"
-          alt="divider"
-        />
+      <img
+        className="hidden md:block w-[16px] h-[16px]"
+        src="/images/circle.png"
+        alt="divider"
+      />
+
 
         {/* Need Help Link */}
         <span className="text-white text-xs md:text-sm cursor-pointer hover:text-gray-400">
@@ -56,13 +58,14 @@ export const MiddleHeader = () => {
     <div>
       <header className="text-gray-600 body-font bg-[#F0F2F3]">
         <div className="container mx-auto flex flex-wrap p-4 md:p-5 items-center">
-          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <a href='./' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             {/* Logo */}
-            <Image
-              className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]"
-              src="/images/logo.png"
-              alt="logo"
-            />
+          <img 
+            className="w-[30px] h-[30px] md:w-[40px] md:h-[40px]"
+            src="/images/logo.png"
+            alt="logo"
+          />
+
             <span className="ml-2 text-lg md:text-3xl">Comforty</span>
           </a>
 
@@ -77,21 +80,25 @@ export const MiddleHeader = () => {
           {/* Cart Button */}
           <button className="inline-flex items-center text-black bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-sm md:text-base">
             {/* Buy Icon */}
-            <Image
-              className="w-[18px] h-[18px] md:w-[22px] md:h-[22px] mr-2"
-              src="/images/buy.png"
-              alt="buy"
-            />
+            
+
+          <img
+            className="w-[18px] h-[18px] md:w-[22px] md:h-[22px] mr-2"
+            src="/images/buy.png"
+            alt="buy"
+          />
+
             {/* Cart Text */}
             <span className="mr-1 md:mr-2">
               <Link href="/cart">Cart</Link>
             </span>
             {/* Number Icon */}
-            <Image
-              className="w-[16px] h-[16px] md:w-[20px] md:h-[20px]"
-              src="/images/No.png"
-              alt="number"
-            />
+            <img
+           className="w-[16px] h-[16px] md:w-[20px] md:h-[20px]"
+           src="/images/No.png"
+           alt="number"
+          />
+
           </button>
         </div>
       </header>

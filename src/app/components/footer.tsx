@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -8,11 +7,12 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex flex-wrap md:items-center lg:items-start md:flex-row md:flex-nowrap flex-col">
           <div className="w-full md:w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <Image
-                className="w-[40px] h-[40px]"
-                src="/images/logo.png"
-                alt="logo"
-              />
+            <img
+  className="w-[40px] h-[40px]"
+  src="/images/logo.png"
+  alt="logo"
+/>
+
               <span className="ml-3 text-3xl">Comforty</span>
             </a>
             <p className="mt-2 text-sm text-gray-500">
@@ -96,11 +96,12 @@ const Footer = () => {
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a>
-                <Image
-                  className="w-[227px] h-[27px]"
-                  src="/images/REC.png"
-                  alt="socials"
-                />
+              <img
+  className="w-[227px] h-[27px]"
+  src="/images/REC.png"
+  alt="socials"
+/>
+
               </a>
             </span>
           </div>

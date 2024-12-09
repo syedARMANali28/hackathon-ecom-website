@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 
 const ContactPage = () => {
   return (
@@ -109,11 +109,12 @@ const ContactPage = () => {
   <div className="max-w-screen-xl mx-auto flex justify-between items-center gap-8 px-4">
     {/* High Quality */}
     <div className="flex items-center gap-4">
-      <Image
-        src="/images/trophy.png"
-        alt="High Quality Icon"
-        className="w-10 h-10"
-      />
+    <img
+  src="/images/trophy.png"
+  alt="High Quality Icon"
+  className="w-10 h-10"
+/>
+
       <div>
         <h3 className="text-lg font-bold">High Quality</h3>
         <p className="text-sm text-gray-600">Crafted from top materials</p>
@@ -121,11 +122,12 @@ const ContactPage = () => {
     </div>
     {/* Warranty Protection */}
     <div className="flex items-center gap-4">
-      <Image
-        src="/images/group.png"
-        alt="Warranty Protection Icon"
-        className="w-10 h-10"
-      />
+    <img
+  src="/images/group.png"
+  alt="Warranty Protection Icon"
+  className="w-10 h-10"
+/>
+
       <div>
         <h3 className="text-lg font-bold">Warranty Protection</h3>
         <p className="text-sm text-gray-600">Over 2 years</p>
@@ -133,11 +135,12 @@ const ContactPage = () => {
     </div>
     {/* 24/7 Support */}
     <div className="flex items-center gap-4">
-      <Image
-        src="/images/customer.png"
-        alt="24/7 Support Icon"
-        className="w-10 h-10"
-      />
+    <img
+  src="/images/customer.png"
+  alt="24/7 Support Icon"
+  className="w-10 h-10"
+/>
+
       <div>
         <h3 className="text-lg font-bold">24 / 7 Support</h3>
         <p className="text-sm text-gray-600">Dedicated support</p>

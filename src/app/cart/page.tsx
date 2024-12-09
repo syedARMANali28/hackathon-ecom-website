@@ -1,4 +1,4 @@
-import Image from "next/image";
+import React from "react";
 
 type Props = {};
 
@@ -10,11 +10,9 @@ const page = (props: Props) => {
           <h2 className="text-2xl font-semibold mb-6">Bag</h2>
           <div className="space-y-6">
             <div className="flex gap-4 p-4 rounded-lg">
-              <Image
+              <img
                 src="/images/orange.png"
                 alt="Orange Library Stool Chair"
-                width={150}
-                height={150}
                 className="rounded-lg object-cover"
               />
               <div className="flex-1">
@@ -33,29 +31,29 @@ const page = (props: Props) => {
                 </div>
                 <div className="flex gap-2 mt-4">
                   <button>
-                    <Image
-                      src="/images/heart.png"
-                      alt="Add to Wishlist"
-                      className="w-6 h-6"
-                    />
+                  <img
+  src="/images/heart.png"
+  alt="Add to Wishlist"
+  className="w-6 h-6"
+/>
+
                   </button>
                   <button>
-                    <Image
-                      src="/images/bin.png"
-                      alt="Remove from Cart"
-                      className="w-6 h-6"
-                    />
+<img
+  src="/images/bin.png"
+  alt="Remove from Cart"
+  className="w-6 h-6"
+/>
+
                   </button>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-4 p-4 rounded-lg">
-              <Image
+              <img
                 src="/images/a.png"
                 alt="Gray Library Stool Chair"
-                width={150}
-                height={150}
                 className="rounded-lg object-cover"
               />
               <div className="flex-1">
@@ -74,18 +72,20 @@ const page = (props: Props) => {
                 </div>
                 <div className="flex gap-2 mt-4">
                   <button>
-                    <Image
-                      src="/images/heart.png"
-                      alt="Add to Wishlist"
-                      className="w-6 h-6"
-                    />
+                  <img
+  src="/images/heart.png"
+  alt="Add to Wishlist"
+  className="w-6 h-6"
+/>
+
                   </button>
                   <button>
-                    <Image
-                      src="/images/bin.png"
-                      alt="Remove from Cart"
-                      className="w-6 h-6"
-                    />
+                  <img
+  src="/images/bin.png"
+  alt="Remove from Cart"
+  className="w-6 h-6"
+/>
+
                   </button>
                 </div>
               </div>

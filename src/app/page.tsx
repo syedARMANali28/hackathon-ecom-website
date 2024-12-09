@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import FirstHeader, { LastHeader, MiddleHeader } from "./components/header";
 import Footer from "./components/footer";
 
@@ -23,7 +23,7 @@ export default function Home() {
 
           {/* Right Section */}
           <div className="w-1/2 flex justify-end pr-16">
-            <Image
+            <img
               className="w-[434px] h-[584px]"
               src="/images/chair.png"
               alt="Chair"
@@ -43,7 +43,7 @@ export default function Home() {
           { src: "/images/doc.png", width: 113, height: 115 },
           { src: "/images/moz.png", width: 84, height: 87 },
         ].map((logo, index) => (
-          <Image
+          <img
             key={index}
             className="w-[100px] h-[100px]" // Adjusted dimensions to a standard size
             src={logo.src}
@@ -64,7 +64,7 @@ export default function Home() {
                 Sales
               </span>
               <a className="block relative h-[312px] w-full">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full"
                   src="/images/pink.png" // Replace with your image path
@@ -92,7 +92,7 @@ export default function Home() {
                 New
               </span>
               <a className="block relative h-[312px] w-full">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full"
                   src="/images/beige.png" // Replace with your image path
@@ -116,7 +116,7 @@ export default function Home() {
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
             <div className="relative rounded-lg border overflow-hidden shadow-md">
               <a className="block relative h-[312px] w-full">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full"
                   src="/images/orange.png" // Replace with your image path
@@ -140,7 +140,7 @@ export default function Home() {
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
             <div className="relative rounded-lg border overflow-hidden shadow-md">
               <a className="block relative h-[312px] w-full">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full"
                   src="/images/white.png" // Replace with your image path
@@ -178,7 +178,7 @@ export default function Home() {
         {/* Category 1 */}
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg overflow-hidden w-[424px] h-[424px]">
-            <Image
+            <img
               alt="chair"
               className="object-cover object-center w-full h-full"
               src="/images/category.png"
@@ -189,7 +189,7 @@ export default function Home() {
         {/* Category 2 */}
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg overflow-hidden w-[424px] h-[424px]">
-            <Image
+            <img
               alt="chair"
               className="object-cover object-center w-full h-full"
               src="/images/category2.png"
@@ -200,7 +200,7 @@ export default function Home() {
         {/* Category 3 */}
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg overflow-hidden w-[424px] h-[424px]">
-            <Image
+            <img
               alt="chair"
               className="object-cover object-center w-full h-full"
               src="/images/category3.png"
@@ -223,7 +223,7 @@ export default function Home() {
       {/* Left Section: Large Image */}
       <div className="lg:w-1/2 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image
+          <img
             alt="dummy"
             className="object-cover object-center w-[648px] h-[648px]"
             src="/images/orange.png"
@@ -235,28 +235,28 @@ export default function Home() {
       <div className="lg:w-1/2 sm:w-full p-4">
         <div className="grid grid-cols-2 gap-x-4 gap-y-4"> {/* gap-4 for equal horizontal & vertical spacing */}
           <div className="flex relative">
-            <Image
+            <img
               alt="gallery"
               className="object-cover object-center w-[312px] h-[312px]"
               src="/images/white.png"
             />
           </div>
           <div className="flex relative">
-            <Image
+            <img
               alt="gallery"
               className="object-cover object-center w-[312px] h-[312px]"
               src="/images/beige.png"
             />
           </div>
           <div className="flex relative">
-            <Image
+            <img
               alt="gallery"
               className="object-cover object-center w-[312px] h-[312px]"
               src="/images/card.png"
             />
           </div>
           <div className="flex relative">
-            <Image
+            <img
               alt="gallery"
               className="object-cover object-center w-[312px] h-[312px]"
               src="/images/beige.png"
@@ -287,7 +287,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/beige.png"
@@ -311,7 +311,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/pink.png"
@@ -335,7 +335,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/orange.png"
@@ -359,7 +359,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/white.png"
@@ -383,7 +383,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/a.png"
@@ -407,7 +407,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/card.png"
@@ -431,7 +431,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/b.png"
@@ -455,7 +455,7 @@ export default function Home() {
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="relative rounded-lg border overflow-hidden shadow-md">
           <a className="block relative h-[312px] w-full">
-            <Image
+            <img
               alt="Library Stool Chair"
               className="object-cover object-center w-full h-full"
               src="/images/beige.png"
